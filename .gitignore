@@ -1,0 +1,15 @@
+﻿# Build output
+bin/
+obj/
+
+# Visual Studio specific files
+.vs/
+*.user
+*.suo
+
+# Environment files
+appsettings.Development.json
+.env
+
+# Logs
+*.log

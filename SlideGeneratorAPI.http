@@ -1,0 +1,6 @@
+@SlideGeneratorAPI_HostAddress = http://localhost:5020
+
+GET {{SlideGeneratorAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

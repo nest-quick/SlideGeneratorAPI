@@ -21,7 +21,7 @@ namespace SlideGeneratorAPI.Services
             response.EnsureSuccessStatusCode();
 
             var result = await response.Content.ReadFromJsonAsync<Dictionary<string, string>>();
-            return result?["url"] ?? "No URL returned";
+            return result?["url"] ?? "No URL was returned";
         }
     }
 }
